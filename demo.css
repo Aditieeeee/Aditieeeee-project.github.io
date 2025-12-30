@@ -39,11 +39,28 @@ body {
 }
 
 /* HERO */
-.hero {
+/* .hero {
   height: 100vh;
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/6a0c90b1/background.jpg") center/cover no-repeat;
   position: relative;
+} */
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.85),
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.85)
+    ),
+    url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
 
 .overlay {
   position: absolute;
